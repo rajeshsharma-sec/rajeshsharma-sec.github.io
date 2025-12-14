@@ -413,11 +413,15 @@
 </head>
 
 <body class="cyber-grid">
+    <!-- Skip Navigation for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-white/10" role="navigation"
+        aria-label="Main navigation">
         <div class="max-w-7xl mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="flex items-center">
+                <a href="#" class="flex items-center" aria-label="Rajesh - Home">
                     <div class="w-10 h-10 rounded-lg glossy-btn flex items-center justify-center">
                         <span class="text-white font-bold text-lg">RS</span>
                     </div>
@@ -428,6 +432,8 @@
                     <a href="#projects" class="nav-link text-[#B3B3B3] hover:text-white transition-colors">Projects</a>
                     <a href="#experience"
                         class="nav-link text-[#B3B3B3] hover:text-white transition-colors">Experience</a>
+                    <a href="#testimonials"
+                        class="nav-link text-[#B3B3B3] hover:text-white transition-colors">Testimonials</a>
                     <a href="#contact" class="glossy-btn px-5 py-2 rounded-full text-white font-medium">Contact</a>
                 </div>
                 <button id="mobileMenuBtn" class="md:hidden text-white text-2xl" aria-label="Toggle mobile menu">
