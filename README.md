@@ -9,6 +9,10 @@ A high-performance, responsive, and SEO-optimized portfolio website for a cybers
 
 **[https://rajeshsharma-sec.github.io](https://rajeshsharma-sec.github.io)**
 
+## 👨‍💻 About Me
+
+I am a Cybersecurity Professional specializing in **EDR**, **Threat Hunting**, **SOC Operations**, and **Python Security Tool Development**. With over 10 years of experience, I focus on defending digital frontiers and building custom security automation solutions.
+
 ## ✨ Features
 
 - **Modern UI/UX**: Built with a sleek, dark-themed design using Tailwind CSS.
