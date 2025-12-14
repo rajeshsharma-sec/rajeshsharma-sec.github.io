@@ -1343,55 +1343,6 @@
                 terminalCursor.style.opacity = terminalCursor.style.opacity === '0' ? '1' : '0';
             }, 500);
         }
-
-        // Testimonials Carousel
-        let currentTestimonial = 0;
-        const testimonialCards = document.querySelectorAll('.testimonial-card');
-        const dots = document.querySelectorAll('.testimonial-dots .dot');
-
-        function showTestimonial(index) {
-            // Hide all testimonials
-            testimonialCards.forEach((card, i) => {
-                card.classList.remove('active');
-                if (dots[i]) {
-                    dots[i].classList.remove('active');
-                    dots[i].setAttribute('aria-selected', 'false');
-                }
-            });
-
-            // Show selected testimonial
-            currentTestimonial = index;
-            if (currentTestimonial >= testimonialCards.length) currentTestimonial = 0;
-            if (currentTestimonial < 0) currentTestimonial = testimonialCards.length - 1;
-
-            testimonialCards[currentTestimonial].classList.add('active');
-            if (dots[currentTestimonial]) {
-                dots[currentTestimonial].classList.add('active');
-                dots[currentTestimonial].setAttribute('aria-selected', 'true');
-            }
-        }
-
-        function nextTestimonial() {
-            showTestimonial(currentTestimonial + 1);
-        }
-
-        function prevTestimonial() {
-            showTestimonial(currentTestimonial - 1);
-        }
-
-        // Auto-rotate testimonials every 6 seconds
-        let testimonialInterval = setInterval(nextTestimonial, 6000);
-
-        // Pause auto-rotation on hover
-        const testimonialContainer = document.getElementById('testimonials-container');
-        if (testimonialContainer) {
-            testimonialContainer.addEventListener('mouseenter', () => {
-                clearInterval(testimonialInterval);
-            });
-            testimonialContainer.addEventListener('mouseleave', () => {
-                testimonialInterval = setInterval(nextTestimonial, 6000);
-            });
-        }
     </script>
 </body>
 
