@@ -150,7 +150,7 @@
     .breadcrumb i { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft); }
     .topbar h1 { margin: 0; font-size: clamp(1.9rem, 3.1vw, 3rem); line-height: 1; letter-spacing: -.055em; }
     .toolbar { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 10px; }
-    .icon-button, .theme-button, .cv-button {
+    .icon-button, .theme-button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -166,11 +166,9 @@
       transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
     }
     .icon-button { width: 42px; }
-    .icon-button svg, .theme-button svg, .cv-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+    .icon-button svg, .theme-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
     .theme-button { padding: 0 13px; font-size: .84rem; font-weight: 760; }
-    .cv-button { padding: 0 14px; border-color: transparent; color: #fff; background: var(--accent-strong); font-size: .84rem; font-weight: 760; }
     .icon-button:hover, .theme-button:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .cv-button:hover { color: #fff; background: var(--accent); transform: translateY(-2px); }
 
     .glass { border: 1px solid var(--line); background: var(--panel); box-shadow: var(--card-shadow); backdrop-filter: blur(20px) saturate(135%); -webkit-backdrop-filter: blur(20px) saturate(135%); }
     .overview-grid { display: grid; grid-template-columns: minmax(0, 1.66fr) minmax(320px, .9fr); gap: 18px; }
@@ -324,8 +322,6 @@
       .toolbar .icon-button { display: none; }
       .theme-button { min-width: 42px; padding: 0 11px; }
       .theme-button span { display: none; }
-      .cv-button { padding: 0 11px; }
-      .cv-button span { display: none; }
       .profile-hero, .hero-content { min-height: 510px; }
       .hero-content { padding: 28px; }
       .radar { width: 220px; right: -25px; bottom: 116px; opacity: .82; }
@@ -382,7 +378,6 @@
           <div class="toolbar">
             <a class="icon-button" href="https://www.linkedin.com/in/rajesh-sharma012" target="_blank" rel="noreferrer" aria-label="Open LinkedIn profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9v8m0-11.5v.1M11 17v-4.3a3 3 0 0 1 6 0V17m0-4.3V9"/><rect x="4" y="3.5" width="16" height="17" rx="3"/></svg></a>
             <button class="theme-button" type="button" id="theme-toggle" aria-label="Switch to dark mode"><svg id="theme-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 14.4A8.2 8.2 0 0 1 9.6 3.6 8.2 8.2 0 1 0 20.4 14.4Z"/></svg><span id="theme-label">Dark mode</span></button>
-            <a class="cv-button" href="Rajesh_Sharma_CV-2026.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 20.5h14"/></svg><span>Download CV</span></a>
           </div>
         </header>
 
@@ -400,7 +395,7 @@
             <div class="radar" aria-hidden="true"></div>
             <div class="radar-label">Security delivery map</div>
             <div class="metric-dock" aria-label="Career metrics">
-              <div class="metric"><strong>14+</strong><span>years in IT & security</span></div>
+              <div class="metric"><strong>14+</strong><span>years in IT &amp; security</span></div>
               <div class="metric"><strong>50+</strong><span>customer organisations</span></div>
               <div class="metric"><strong>100K+</strong><span>endpoints supported</span></div>
               <div class="metric"><strong>10+</strong><span>enterprise deliveries</span></div>
@@ -442,7 +437,7 @@
               <h3>Core expertise</h3>
               <p>Enterprise endpoint protection, detection, data security, migration, assessment, and enablement across complex customer estates.</p>
               <div class="chips">
-                <span class="chip highlight">Trellix / McAfee ePO</span><span class="chip highlight">EDR / XDR</span><span class="chip">Endpoint Security</span><span class="chip">DLP</span><span class="chip">Encryption</span><span class="chip">Threat Intelligence</span><span class="chip">Product Health Assessment</span><span class="chip">HLD / LLD</span><span class="chip">Migration & Upgrade</span><span class="chip">Policy Tuning</span><span class="chip">AWS · GCP · Azure</span><span class="chip">VMware · Hyper-V</span>
+                <span class="chip highlight">Trellix / McAfee ePO</span><span class="chip highlight">EDR / XDR</span><span class="chip">Endpoint Security</span><span class="chip">DLP</span><span class="chip">Encryption</span><span class="chip">Threat Intelligence</span><span class="chip">Product Health Assessment</span><span class="chip">HLD / LLD</span><span class="chip">Migration &amp; Upgrade</span><span class="chip">Policy Tuning</span><span class="chip">AWS · GCP · Azure</span><span class="chip">VMware · Hyper-V</span>
               </div>
             </article>
             <article class="glass timeline-card" aria-label="Professional experience timeline">
@@ -471,7 +466,7 @@
 
         <section class="lower-grid" id="credentials">
           <article class="glass certifications-card">
-            <h3>Certifications & education</h3>
+            <h3>Certifications &amp; education</h3>
             <p>Technical certifications and continuous learning that support enterprise security consulting and AI-enabled delivery workflows.</p>
             <div class="cert-grid">
               <div class="cert"><b>CompTIA Security+</b><span>2026</span></div><div class="cert"><b>Trellix Endpoint DLP</b><span>2026</span></div><div class="cert"><b>Anthropic Claude Code 101</b><span>2026</span></div><div class="cert"><b>Anthropic Claude MCP</b><span>2026</span></div><div class="cert"><b>McAfee Endpoint Security</b><span>2018</span></div><div class="cert"><b>B.C.A. Computer Science</b><span>Rajasthan University · 2016</span></div>
