@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajeshsharma-sec.github.io/sitemap.xml

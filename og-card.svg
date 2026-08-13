@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Rajesh Sharma — Cybersecurity Consultant</title>
+  <desc id="desc">Endpoint security, EDR/XDR, data protection, and Agentic AI delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8edf3"/>
+      <stop offset="1" stop-color="#dce3ec"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5364e9"/>
+      <stop offset="1" stop-color="#3f4eca"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="90" r="260" fill="#d78566" opacity=".18"/>
+  <circle cx="110" cy="560" r="300" fill="#5364e9" opacity=".12"/>
+  <rect x="72" y="76" width="1056" height="478" rx="34" fill="#ffffff" opacity=".72" stroke="#1f2f45" stroke-opacity=".12"/>
+  <rect x="120" y="132" width="12" height="214" rx="6" fill="url(#accent)"/>
+  <text x="172" y="215" fill="#172131" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800">RAJESH SHARMA</text>
+  <text x="174" y="278" fill="#5364e9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="2">CYBERSECURITY CONSULTANT</text>
+  <text x="174" y="368" fill="#637083" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30">Endpoint Security · EDR/XDR · Data Protection</text>
+  <text x="174" y="430" fill="#637083" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26">Enterprise delivery · Trellix/McAfee · Agentic AI workflows</text>
+  <text x="174" y="500" fill="#172131" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">rajeshsharma-sec.github.io</text>
+</svg>
